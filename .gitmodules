@@ -1,0 +1,6 @@
+[submodule "API_5_SEM_FRONT"]
+	path = API_5_SEM_FRONT
+	url = https://github.com/23deFevereiro/API_5_SEM_FRONT.git
+[submodule "API_5_SEM_BACK"]
+	path = API_5_SEM_BACK
+	url = https://github.com/23deFevereiro/API_5_SEM_BACK.git
