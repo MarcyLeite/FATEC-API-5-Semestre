@@ -3,16 +3,16 @@
 
 <p align="center">
     <a href="#introducao">Introducao</a> |
-    <a href="#equipe">Equipe</a> |
     <a href="#desafio">Desafio</a> |  
     <a href="#solucao">Solução</a> |   
     <a href="#backlog-do-produto">Backlog do Produto</a> |
+    <a href="#cronograma-de-evolucao">Cronograma de Evolução do Projeto</a> |
     <a href="#cronograma-de-sprints">Cronograma de Sprints</a> |
-    <a href="#resumo-de-sprints">Resumo de Sprints</a> |
-    <a href="#burndown">Burndown</a> |
-    <a href="#testes">Testes SonarQube</a> |
-    <a href="#documentacao">Documentação</a> |
     <a href="#tecnologias">Tecnologias</a> |
+    <a href="#executar-usar-testar-o-projeto">Executar, Usar e Testar o Projeto</a> |
+    <a href="#estrutura-do-projeto">Estrutura do Projeto</a> |
+    <a href="#documentacao">Documentação</a> |
+    <a href="#equipe">Equipe</a>
 </p>
 
 <span id="introducao">
@@ -24,26 +24,6 @@ A proposta é criar a ---, uma ferramenta de --- integrada às base de dados da 
 
 ### SIATT: A Empresa Cliente
 O projeto é uma solução voltada à SIATT – **Sistemas Integrados de Alto Teor Tecnológico**, empresa brasileira fundada em 2015 e sediada no Parque Tecnológico de São José dos Campos (SP). Especializada no desenvolvimento e integração de sistemas de alta tecnologia para os setores de defesa e aeroespacial, a companhia atua na criação de soluções avançadas como mísseis e armamentos inteligentes, sistemas de guiagem e navegação, radares, aviônicos e sistemas de comunicação e controle. Com uma equipe majoritariamente formada por engenheiros e especialistas, a SIATT participa de projetos estratégicos para as Forças Armadas brasileiras, incluindo o desenvolvimento do MANSUP (Míssil Antinavio Nacional), além de colaborar em iniciativas tecnológicas voltadas à segurança, monitoramento e comunicação em ambientes complexos.
-
-<span id="equipe">
-
-## :busts_in_silhouette: Equipe
-
-<div align="center">
-
-|    Nome     | Função                  | Networking |
-|---------------|-----------------------|-------------------|
-| Augusto Piatto | Product Owner | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/augusto-piatto/) [![GitHub](https://img.shields.io/badge/GitHub-111217?logo=github&logoColor=white)](https://github.com/augustopiatto) |
-| Davi Soares | Scrum Master | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/dsf21/) [![Github](https://img.shields.io/badge/GitHub-111217?logo=github&logoColor=white)](https://github.com/DaviSFS21) |
-| João Paulista | Dev Team | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/joaopaulista/) [![Github](https://img.shields.io/badge/GitHub-111217?logo=github&logoColor=white)](https://github.com/joaopaulista) |
-| João Ventura | Dev Team | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/joão-pedro-ventura-51988a21b/) [![Github](https://img.shields.io/badge/GitHub-111217?logo=github&logoColor=white)](https://github.com/jauventur) |
-| Matheus Marciano | Dev Team | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-marciano-leite/) [![Github](https://img.shields.io/badge/GitHub-111217?logo=github&logoColor=white)](https://github.com/marcyleite) |
-| Tiago Alberto | Dev Team | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/tiago-alberto-303909167/) [![Github](https://img.shields.io/badge/GitHub-111217?logo=github&logoColor=white)](https://github.com/Tiago17santos) |
-| Tiago Torres | Dev Team | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/tiago-torres-dos-reis/) [![Github](https://img.shields.io/badge/GitHub-111217?logo=github&logoColor=white)](https://github.com/TiagoTReis) |
-
-</div>
-
-→ <a href="#23-de-fevereiro">Voltar ao topo</a>
 
 ---
 
@@ -96,223 +76,43 @@ TODO (mantendo o do semestre passado para servir de base)
 | Rank | Prioridade | User Story | Story Points | Sprint |
 |-|-|-|-|-|
 | 1 | 🔴 Alta | Como gestor, quero informações sobre o trânsito em forma de dashboards, gráficos e tabelas para auxiliar minha tomada de decisão na diminuição de trânsito | 48 | 1 |
-| 2 | 🔴 Alta | Como usuário da plataforma, quero um mapa na tela inicial, que tenha as divisões das zonas da cidade de São José dos Campos, para que eu possa ter uma visão detalhada dos locais que o sistema possui informação | 30 | 1 |
-| 3 | 🔴 Alta | Como usuário publico ou como agente, quero uma tela com a documentação dos indicadores para saber o que está sendo avaliado na exibição do mapa da cidade | 42 | 1 |
-| 4 | 🔴 Alta * | Como cliente, quero que cada permissão de usuário (gestor, agente e público) tenham acessos diferentes à cada funcionalidade | 26 | 3 |
-| 5 | 🟡 Média ~ | Como gestor, quero que a tela de documentação dos indicadores (rank 3) ofereça a possibilidade de adicionar, editar e deletar os indicadores, para que eu tenha controle sobre o monitoramento do trânsito da cidade | 22 | 1 |
-| 6 | 🟡 Média ~ | Como gestor, quero ter a possibilidade de alterar as definições dos níveis referentes a um indicador sem modificar a quantidade de níveis existentes, para que o disparo de alertas, que dependem desses níveis, ocorram em momentos controlados | 12 | 2 |
-| 7 | 🟡 Média | Como gestor, quero poder associar um usuário agente a uma zona ou usuário gestor a uma zona, para que recebam informações específicas e centralizadas para atuar | 16 | 2 |
-| 8 | 🟡 Média | Como agente e como gestor, quero receber alertas quando houver mudança nos níveis de qualquer indicador, para que eu tenha noção de quando o trânsito piorar e possa tomar medidas para solucionar o problema | 39 | 2 |
-| 9 | 🟡 Média | Como gestor, quero que as zonas tenham informações das principais vias demarcadas e que apresentem o congestionamento dessa via, para que eu possa atuar de forma mais rápida e precisa em pontos críticos da cidade | 20 | 2 |
-| 10 | 🟡 Média | Como gestor, quero poder criar “causas raíz” para alertas disparados e poder criar protocolos para essas “causas raíz”, para que o agente tenha uma orientação de como resolver os alertas que surgirem | 18 | 2 |
-| 11 | 🟡 Média | Como agente, quero poder visualizar um alerta específico, para que possa documentar informações sobre este alerta, obter informações sobre como resolver o problema que gerou o alerta e finalizá-lo | 33 | 3 |
-| 12 | 🟡 Média * | Como agente e como gestor, quero poder visualizar todos os alertas disponíveis na base | 16 | 3 |
-| 13 | 🟡 Média * | Como gestor, quero poder visualizar e manipular todos os usuários disponíveis na base | 7 | 3 |
+| 5 | 🟡 Média | Como gestor, quero que a tela de documentação dos indicadores (rank 3) ofereça a possibilidade de adicionar, editar e deletar os indicadores, para que eu tenha controle sobre o monitoramento do trânsito da cidade | 22 | 1 |
 | 14 | 🟢 Baixa | Como gestor, quero ter logs dos alertas gerados, para registro de auditoria e estudo de histórico do comportamento do trânsito | 6 | 3 |
-| 15 | 🟢 Baixa ~ | Como gestor, quero um chat interno no produto para que eu possa consultar informações que estão no banco de forma simplificada | 42 | 3 |
 
 → <a href="#23-de-fevereiro">Voltar ao topo</a>
 
 ---
 
-## 📅 Cronograma de Sprints
+<span id="cronograma-de-evolucao">
+    
+## ⏱️ Cronograma de Evolução do Projeto
+
+| Etapa            | Sprint 1 | Sprint 2 | Sprint 3 |
+| ---------------- | -------- | -------- | -------- |
+| Planejamento     |          |          |          |
+| Modelagem do DW  |          |          |          |
+| Backend (Django) |          |          |          |
+| Frontend (Vue)   |          |          |          |
+| Dashboards       |          |          |          |
+| Testes           |          |          |          |
+
+→ <a href="#23-de-fevereiro">Voltar ao topo</a>
+
+---
 
 <span id="cronograma-de-sprints">
+    
+## 📅 Cronograma de Sprints
 
-| Sprint | Início | Entrega | Histórico |
-|-|-|-|-|
-| Kick off | 02/03/2026 | --- | --- |
-| SPRINT 1 | 16/03/2026 | 05/04/2026 | [Sprint 1 Docs - TODO]() |
-| SPRINT 2 | 13/04/2026 | 03/05/2026 | [Sprint 2 Docs - TODO]() |
-| SPRINT 3 | 11/05/2026 | 31/05/2026 | [Sprint 3 Docs - TODO]() |
-| Feira de Soluções | 11/06/2026 | --- | --- |
+| Sprint | Início | Fim | Histórico | Entrega |
+|-|-|-|-|-|
+| Kick off | 02/03/2026 | --- | --- | --- |
+| SPRINT 1 | 16/03/2026 | 05/04/2026 | [Sprint 1 Docs](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/5.-Documenta%C3%A7%C3%A3o-das-Sprints#sprint-1) | [Vídeo - TODO]() |
+| SPRINT 2 | 13/04/2026 | 03/05/2026 | [Sprint 2 Docs](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/5.-Documenta%C3%A7%C3%A3o-das-Sprints#sprint-2) | [Vídeo - TODO]() |
+| SPRINT 3 | 11/05/2026 | 31/05/2026 | [Sprint 3 Docs](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/5.-Documenta%C3%A7%C3%A3o-das-Sprints#sprint-3) | [Vídeo - TODO]() |
+| Feira de Soluções | 11/06/2026 | --- | --- | --- |
 
 → <a href="#23-de-fevereiro">Voltar ao topo</a>
-
----
-
-<span id="resumo-de-sprints">
-
-## Resumo de Sprints 📋
-
-<details>
-
-<summary> Kick Off </summary>
-
-A
-
-</details>
-
-<details>
-
-<summary>Sprint 1</summary>
-
-📌 Sprint Report – Projeto ---
-
-🧭 Objetivos da Sprint
-
-Nesta sprint, tivemos como foco:
-
-- A
-
-Nem todas as entregas planejadas foram concluídas, mas houve progresso significativo em pontos estruturais. A documentação já disponível no Teams começou a ser transferida para o Jira, o que trará maior visibilidade e rastreabilidade para as próximas etapas.
-
----
-
-✅ Pontos Positivos
-
-- A
-
----
-
-⚠️ Desafios e Obstáculos
-
-- A
-
----
-
-💡 Lições Aprendidas
-
-- A
-
-</details>
-
-<details>
-
-<summary>Sprint 2</summary>
-
-📌 Sprint Report – Projeto ---
-
-🧭 Objetivos da Sprint
-
-Nesta sprint, tivemos como foco:
-
-- A
-
-Nem todas as entregas planejadas foram concluídas, mas houve progresso significativo em pontos estruturais. A documentação já disponível no Teams começou a ser transferida para o Jira, o que trará maior visibilidade e rastreabilidade para as próximas etapas.
-
----
-
-✅ Pontos Positivos
-
-- A
-
----
-
-⚠️ Desafios e Obstáculos
-
-- A
-
----
-
-💡 Lições Aprendidas
-
-- A
-
-</details>
-
-<details>
-
-<summary>Sprint 3</summary>
-
-📌 Sprint Report – Projeto ---
-
-🧭 Objetivos da Sprint
-
-Nesta sprint, tivemos como foco:
-
-- A
-
-Nem todas as entregas planejadas foram concluídas, mas houve progresso significativo em pontos estruturais. A documentação já disponível no Teams começou a ser transferida para o Jira, o que trará maior visibilidade e rastreabilidade para as próximas etapas.
-
----
-
-✅ Pontos Positivos
-
-- A
-
----
-
-⚠️ Desafios e Obstáculos
-
-- A
-
----
-
-💡 Lições Aprendidas
-
-- A
-
-</details>
-
----
-
-<span id="burndown">
-
-## Burndown 🔥
-
-<details>
-     
-<summary>Sprint 1</summary>
-
-TODO
-
-</details>
-
-<details>
-
-<summary>Sprint 2</summary>
-
-TODO
-
-</details>
-
-<details>
-
-<summary>Sprint 3</summary>
-
-TODO
-
-</details>
-
----
-
-<span id="testes">
-
-## 📑 Testes SonarQube
-<details>
-     
-<summary>Sprint 1</summary>
-
-TODO
-
-</details>
-
-<details>
-
-<summary>Sprint 2</summary>
-
-TODO
-
-</details>
-
-<details>
-
-<summary>Sprint 3</summary>
-
-TODO
-
-</details>
-
----
-
-<span id="documentacao">
-
-## 📄 Documentação
-
-<a href="https://www.figma.com/design/UGtbRBRk3JZqQ7Vx9TMAQ8/API-5-Sem?node-id=0-1&p=f&t=2RMKV3keLHuhPPgL-0">Wireframe</a>
-
-<a href="https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki">Documentação</a>
 
 ---
 
@@ -334,3 +134,58 @@ TODO
 </p>
 
 → <a href="#23-de-fevereiro">Voltar ao topo</a>
+
+---
+
+<span id="executar-usar-testar-o-projeto">
+    
+## 🚀 Executar, Usar e Testar o Projeto
+
+TODO
+
+→ <a href="#23-de-fevereiro">Voltar ao topo</a>
+
+---
+
+<span id="estrutura-do-projeto">
+    
+## 🗂️ Estrutura do Projeto
+
+TODO
+
+→ <a href="#23-de-fevereiro">Voltar ao topo</a>
+
+---
+
+<span id="documentacao">
+
+## 📚 Documentação
+
+<a href="https://www.figma.com/design/UGtbRBRk3JZqQ7Vx9TMAQ8/API-5-Sem?node-id=0-1&p=f&t=2RMKV3keLHuhPPgL-0">Wireframe</a>
+
+<a href="https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki">Documentação</a>
+
+→ <a href="#23-de-fevereiro">Voltar ao topo</a>
+
+---
+
+<span id="equipe">
+
+## :busts_in_silhouette: Equipe
+
+<div align="center">
+
+| Nome | Função | Networking | Identificação |
+|---|---|---|---|
+| Augusto Piatto | Product Owner | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/augusto-piatto/) [![GitHub](https://img.shields.io/badge/GitHub-111217?logo=github&logoColor=white)](https://github.com/augustopiatto) | <img src="https://media.licdn.com/dms/image/v2/D4D03AQHIufwtUAtP-g/profile-displayphoto-shrink_800_800/B4DZTbun62HAAg-/0/1738853220594?e=1774483200&v=beta&t=3HthESSDspBYXny1gmIWKqkbhdxXaLLZe_UnTdCidng" width="60"> |
+| Davi Soares | Scrum Master | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/dsf21/) [![Github](https://img.shields.io/badge/GitHub-111217?logo=github&logoColor=white)](https://github.com/DaviSFS21) | <img src="https://media.licdn.com/dms/image/v2/D5603AQH4Mq-L9oCcvQ/profile-displayphoto-crop_800_800/B56ZlN660SIsAI-/0/1757948918646?e=1774483200&v=beta&t=LtvBfkP3zSOK9FI9lFlSDA6BNhOMU4pn0wfoAXT0taw" width="60"> |
+| João Paulista | Dev Team | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/joaopaulista/) [![Github](https://img.shields.io/badge/GitHub-111217?logo=github&logoColor=white)](https://github.com/joaopaulista) | <img src="https://media.licdn.com/dms/image/v2/D4E03AQHC8f40eim1BA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727891030117?e=1774483200&v=beta&t=lUqkcfaiVL7nnI_lQQv-LacAhXSHAnGYpSZAuWyGMvc" width="60"> |
+| João Ventura | Dev Team | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/joão-pedro-ventura-51988a21b/) [![Github](https://img.shields.io/badge/GitHub-111217?logo=github&logoColor=white)](https://github.com/jauventur) | <img src="https://media.licdn.com/dms/image/v2/D4D03AQEyWGUnjpFoXw/profile-displayphoto-shrink_800_800/B4DZVYUR3sG4Ac-/0/1740943467142?e=1774483200&v=beta&t=C8fTzvieLo4sY47TwCb5v3i1Kt8jgn9WUKYdP2vfyBM" width="60"> |
+| Matheus Marciano | Dev Team | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-marciano-leite/) [![Github](https://img.shields.io/badge/GitHub-111217?logo=github&logoColor=white)](https://github.com/marcyleite) | <img src="https://media.licdn.com/dms/image/v2/D4D03AQGpkZizsf7guQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1697472746080?e=1774483200&v=beta&t=fE97NHSmwVgyuFCQ8Ww81XJ7eXD4wLcttk3PWcW4CoM" width="60"> |
+| Tiago Alberto | Dev Team | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/tiago-alberto-303909167/) [![Github](https://img.shields.io/badge/GitHub-111217?logo=github&logoColor=white)](https://github.com/Tiago17santos) | <img src="https://media.licdn.com/dms/image/v2/D4D03AQGueuuOSlgVKA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719004996407?e=1774483200&v=beta&t=58jo0Tm7oeStLml2Ww5upJGJc7suChq6QjrFphHjabw" width="60"> |
+| Tiago Torres | Dev Team | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/tiago-torres-dos-reis/) [![Github](https://img.shields.io/badge/GitHub-111217?logo=github&logoColor=white)](https://github.com/TiagoTReis) | <img src="https://media.licdn.com/dms/image/v2/D4D35AQHO-0RsXZghfw/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1737581648985?e=1773601200&v=beta&t=Ho2cWDEntTd8jQ1kWM9KX4ioJSCADEat7pCHhtE6JLc" width="60"> |
+
+</div>
+
+→ <a href="#23-de-fevereiro">Voltar ao topo</a>
+
