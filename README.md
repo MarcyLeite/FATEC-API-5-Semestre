@@ -59,7 +59,10 @@ O detalhamento das regras de negócio, definição de métricas, critérios de c
 
 <summary>Clique aqui</summary>
 <br>
-TODO
+A Lunae é uma plataforma analítica que integra dados de tarefas, projetos, programas, compras e horas trabalhadas, consolidando informações que atualmente estão dispersas em diferentes sistemas e tabelas. Por meio da importação de arquivos CSV fornecidos pelo parceiro, os dados são processados, tratados e armazenados em um banco de dados estruturado, permitindo consultas analíticas precisas.
+<br>
+<br>
+A solução fornece um dashboard interativo com gráficos de barras e linhas que permitem aos gestores acompanhar o consumo de recursos, evolução de custos e esforço técnico por projeto e programa, além de aplicar filtros para explorar diferentes cenários. Com isso, a Lunae oferece uma visão consolidada e multidimensional, apoiando a tomada de decisão e a gestão estratégica dos programas institucionais da empresa.
 
 </details>
 
@@ -71,13 +74,19 @@ TODO
 
 ## 📋 Backlog do Produto
 
-TODO (mantendo o do semestre passado para servir de base)
-
-| Rank | Prioridade | User Story | Story Points | Sprint |
-|-|-|-|-|-|
-| 1 | 🔴 Alta | Como gestor, quero informações sobre o trânsito em forma de dashboards, gráficos e tabelas para auxiliar minha tomada de decisão na diminuição de trânsito | 48 | 1 |
-| 5 | 🟡 Média | Como gestor, quero que a tela de documentação dos indicadores (rank 3) ofereça a possibilidade de adicionar, editar e deletar os indicadores, para que eu tenha controle sobre o monitoramento do trânsito da cidade | 22 | 1 |
-| 14 | 🟢 Baixa | Como gestor, quero ter logs dos alertas gerados, para registro de auditoria e estudo de histórico do comportamento do trânsito | 6 | 3 |
+Rank | Prioridade | User Story | Story Points | Sprint
+-- | -- | -- | -- | --
+1 | 🔴 Alta | Como gestor de projeto, quero visualizar um gráfico de barras com horas trabalhadas por usuário para entender a distribuição de esforço da equipe | - | 1
+2 | 🔴 Alta | Como gestor, quero visualizar um gráfico de barras com horas trabalhadas por projeto para comparar o esforço entre projetos | - | 1
+3 | 🔴 Alta | Como gestor, quero visualizar a evolução de horas trabalhadas por projeto ao longo do tempo em um gráfico multi-linha para acompanhar o progresso das atividades | - | 1
+4 | 🔴 Alta | Como gestor financeiro, quero visualizar a evolução de custos por projeto ao longo do tempo em um gráfico multi-linha para acompanhar o crescimento dos gastos | - | 1
+5 | 🔴 Alta | Como gestor, quero filtrar os gráficos pelo status do projeto para analisar diferentes cenários operacionais | - | 1
+6 | 🟡 Média | Como gestor, quero visualizar a evolução de horas trabalhadas por programa ao longo do tempo para acompanhar o esforço agregado em nível estratégico | - | 2
+7 | 🟡 Média | Como gestor financeiro, quero visualizar a evolução de custos por programa ao longo do tempo para analisar o comportamento financeiro dos programas | - | 2
+8 | 🟡 Média | Como gestor, quero visualizar um gráfico de barras com horas trabalhadas por programa para comparar o esforço entre diferentes programas | - | 2
+9 | 🟡 Média | Como gestor de projeto, quero calcular o total de horas trabalhadas por usuário e por projeto para acompanhar o esforço de desenvolvimento | - | 1
+10 | 🟡 Média | Como gestor financeiro, quero calcular o custo total por projeto com base nas compras realizadas para avaliar o impacto financeiro dos projetos | - | 1
+11 | 🟡 Média | Como gestor, quero consolidar horas e custos por programa para permitir análises estratégicas entre diferentes programas da organização | - | 2
 
 → <a href="#23-de-fevereiro">Voltar ao topo</a>
 
