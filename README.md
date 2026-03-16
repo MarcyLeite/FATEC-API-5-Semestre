@@ -1,5 +1,5 @@
 <span id="23-de-fevereiro">
-# TODO (imagem com nome do produto aqui)
+<img width="1800" height="526" alt="image" src="https://github.com/user-attachments/assets/9c2f315d-9621-4fed-be78-2aaac163f5b7" />
 
 <p align="center">
     <a href="#introducao">Introducao</a> |
