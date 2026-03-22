@@ -2,137 +2,138 @@
 <img width="1800" height="526" alt="image" src="https://github.com/user-attachments/assets/9c2f315d-9621-4fed-be78-2aaac163f5b7" />
 
 <p align="center">
-    <a href="#introducao">Introducao</a> |
-    <a href="#desafio">Desafio</a> |  
-    <a href="#solucao">Solução</a> |   
-    <a href="#backlog-do-produto">Backlog do Produto</a> |
-    <a href="#cronograma-de-evolucao">Cronograma de Evolução do Projeto</a> |
-    <a href="#cronograma-de-sprints">Cronograma de Sprints</a> |
-    <a href="#tecnologias">Tecnologias</a> |
-    <a href="#executar-usar-testar-o-projeto">Executar, Usar e Testar o Projeto</a> |
-    <a href="#estrutura-do-projeto">Estrutura do Projeto</a> |
-    <a href="#documentacao">Documentação</a> |
-    <a href="#equipe">Equipe</a>
+    <a href="#introduction">Introduction</a> |
+    <a href="#challenge">Challenge</a> |  
+    <a href="#solution">Solution</a> |   
+    <a href="#product-backlog">Product Backlog</a> |
+    <a href="#project-evolution-timeline">Project Evolution Timeline</a> |
+    <a href="#sprint-timeline">Sprint Timeline</a> |
+    <a href="#technologies">Technologies</a> |
+    <a href="#project-structure">Project Structure</a> |
+    <a href="#run-use-and-test-the-project">Run, Use and Test the Project</a> |
+    <a href="#documentation">Documentation</a> |
+    <a href="#team">Team</a>
 </p>
 
-<span id="introducao">
+<span id="introduction">
     
-## 📍 Introdução
-Este projeto foi desenvolvido pelo grupo **23 de fevereiro**, composto por estudantes do 5º semestre de Tecnologia em Banco de Dados da Fatec São José dos Campos.
+## 📍 Introduction
+This project was developed by the **23 de fevereiro** group, composed of students from the 5th semester of the `Banco de Dados` course at Fatec São José dos Campos.
 
-A proposta é criar a `Lunae`, uma ferramenta de extração, tratativa de dados e visão analítica, integrada às base de dados da empresa parceira **SIATT**, com foco em criar dashboards das informações que a empresa dispõe. A Lunae permitirá que gestores façam análises históricas e estratégicas e, assim, gerar indicadores relevantes para a gestão de programas e projetos.
+The goal is to create `Lunae`, an extraction, data processing, and analytical visualization tool integrated with the databases of the partner company SIATT, focused on creating dashboards from the information the company possesses. Lunae will enable managers to perform historical and strategic analyses, generating relevant indicators for program and project management.
 
-### SIATT: A Empresa Cliente
-O projeto é uma solução voltada à SIATT – **Sistemas Integrados de Alto Teor Tecnológico**, empresa brasileira fundada em 2015 e sediada no Parque Tecnológico de São José dos Campos (SP). Especializada no desenvolvimento e integração de sistemas de alta tecnologia para os setores de defesa e aeroespacial, a companhia atua na criação de soluções avançadas como mísseis e armamentos inteligentes, sistemas de guiagem e navegação, radares, aviônicos e sistemas de comunicação e controle. Com uma equipe majoritariamente formada por engenheiros e especialistas, a SIATT participa de projetos estratégicos para as Forças Armadas brasileiras, incluindo o desenvolvimento do MANSUP (Míssil Antinavio Nacional), além de colaborar em iniciativas tecnológicas voltadas à segurança, monitoramento e comunicação em ambientes complexos.
-
----
-
-<span id="desafio">
-
-## 🧩 Desafio
-
-<details>
-     
-<summary>Clique aqui</summary>
-<br>
-A empresa desenvolve projetos estratégicos organizados em programas institucionais, envolvendo atividades de engenharia, aquisição de materiais e execução de tarefas técnicas especializadas.
-<br>
-<br>
-Atualmente, as informações relacionadas a solicitações de compra, pedidos, empenho de materiais, controle de estoque, tarefas de desenvolvimento e horas trabalhadas encontram-se distribuídas em diferentes tabelas e sistemas, sem uma visão analítica consolidada.
-<br>
-<br>
-A ausência de integração entre os dados dificulta a análise do custo real dos projetos, a comparação entre programas e o acompanhamento do consumo de materiais e horas técnicas ao longo do tempo. Gestores de projeto e responsáveis pelo acompanhamento financeiro enfrentam dificuldades para responder questões como: quanto cada projeto consumiu em materiais? Qual o custo total de horas técnicas? Qual é o custo real do produto considerando materiais e esforço de desenvolvimento?
-<br>
-<br>
-O desafio consiste em projetar e implementar um ambiente analítico capaz de integrar informações provenientes das áreas de projetos, aquisições e desenvolvimento, estruturando os dados de forma adequada para apoiar análises históricas e estratégicas. A solução deverá permitir a exploração multidimensional das informações, possibilitando a geração de indicadores relevantes para a gestão de programas e projetos.
-<br>
-<br>
-O detalhamento das regras de negócio, definição de métricas, critérios de consolidação e priorização das análises deverá ser construído pelos alunos em conjunto com o parceiro ao longo do projeto, por meio das interações realizadas via Slack, seguindo a abordagem incremental prevista na metodologia ágil adotada.
-
-</details>
-
-<span id="solucao">
-
-## 🏅 Solução
-
-<details>
-
-<summary>Clique aqui</summary>
-<br>
-A Lunae é uma plataforma analítica que integra dados de tarefas, projetos, programas, compras e horas trabalhadas, consolidando informações que atualmente estão dispersas em diferentes sistemas e tabelas. Por meio da importação de arquivos CSV fornecidos pelo parceiro, os dados são processados, tratados e armazenados em um banco de dados estruturado, permitindo consultas analíticas precisas.
-<br>
-<br>
-A solução fornece um dashboard interativo com gráficos de barras e linhas que permitem aos gestores acompanhar o consumo de recursos, evolução de custos e esforço técnico por projeto e programa, além de aplicar filtros para explorar diferentes cenários. Com isso, a Lunae oferece uma visão consolidada e multidimensional, apoiando a tomada de decisão e a gestão estratégica dos programas institucionais da empresa.
-
-</details>
-
-→ <a href="#23-de-fevereiro">Voltar ao topo</a>
+### SIATT: The Client Company
+This project is a solution designed for SIATT – **Sistemas Integrados de Alto Teor Tecnológico (High Technology Integrated Systems)**, a Brazilian company founded in 2015 and headquartered in the São José dos Campos Technology Park (SP). Specializing in the development and integration of high-tech systems for the defense and aerospace sectors, the company focuses on creating advanced solutions such as missiles and smart weapons, guidance and navigation systems, radars, avionics, and communication and control systems. With a team predominantly composed of engineers and specialists, SIATT participates in strategic projects for the Brazilian Armed Forces, including the development of MANSUP (National Anti-Ship Missile), in addition to collaborating on technological initiatives focused on security, monitoring, and communication in complex environments.
 
 ---
 
-<span id="backlog-do-produto">
+<span id="challenge">
 
-## 📋 Backlog do Produto
+## 🧩 Challenge
 
-Rank | Prioridade | User Story | Story Points | Sprint | Requisito do Cliente
+<details>
+
+<summary>Click here</summary>
+<br>
+The company develops strategic projects organized into institutional programs, involving engineering activities, material acquisition, and specialized technical task execution.
+<br>
+<br>
+Currently, information related to purchase requests, orders, material commitments, inventory control, development tasks, and hours worked are distributed across different tables and systems, lacking a consolidated analytical view. <br> <br> The absence of data integration hinders the analysis of the actual cost of projects, comparison between programs, and the tracking of material consumption and technical hours over time. Project managers and those responsible for financial monitoring face difficulties in answering questions such as: how much did each project consume in materials? What is the total cost of technical hours? What is the actual cost of the product considering materials and development effort?
+<br>
+<br>
+The challenge lies in designing and implementing an analytical environment capable of integrating information from project, procurement, and development areas, structuring the data appropriately to support historical and strategic analyses. The solution should allow multidimensional exploration of information, enabling the generation of relevant indicators for program and project management.
+<br>
+<br>
+The detailing of business rules, definition of metrics, consolidation criteria, and prioritization of analyses must be built by the students together with the partner throughout the project, through interactions via Slack, following the incremental approach of the adopted agile methodology.
+
+</details>
+
+→ <a href="#23-de-fevereiro">Back to top</a>
+
+---
+
+<span id="solution">
+
+## 🏅 Solution
+
+<details>
+
+<summary>Click here</summary>
+<br>
+Lunae is an analytical platform that integrates data from tasks, projects, programs, purchases, and hours worked, consolidating information that is currently scattered across different systems and tables. Through the import of CSV files provided by the partner, the data is processed, treated, and stored in a structured database, enabling precise analytical queries.
+<br>
+<br>
+The solution provides an interactive dashboard with bar and line charts that allow managers to track resource consumption, cost evolution, and technical effort by project and program, as well as apply filters to explore different scenarios. With this, Lunae offers a consolidated and multidimensional view, supporting decision-making and strategic management of the company's institutional programs.
+
+</details>
+
+→ <a href="#23-de-fevereiro">Back to top</a>
+
+---
+
+<span id="product-backlog">
+
+## 📋 Product Backlog
+
+Rank | Priority | User Story | Story Points | Sprint | Client Requirement
 -- | -- | -- | -- | -- | --
-1 | 🔴 Alta | Como gestor de projeto, quero visualizar um gráfico de barras com horas trabalhadas por funcionário para entender a distribuição de esforço da equipe separados por projeto | 8 | 1 | [RF05](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF07](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
-2 | 🔴 Alta | Como gestor, quero filtrar um projeto específico e visualizar indicadores resumidos como custo total e tempo total para entender rapidamente sua situação geral | 3 | 1 | [RF11](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF12](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
-3 | 🔴 Alta | Como gestor, quero visualizar a evolução de horas trabalhadas por projeto ao longo do tempo em um gráfico multi-linha para acompanhar o progresso das atividades | 8 | 1 | [RF05](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF08](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
-4 | 🔴 Alta | Como gestor, quero visualizar a evolução de custos por projeto ao longo do tempo em um gráfico multi-linha para acompanhar o crescimento dos gastos | 8 | 1 | [RF06](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF09](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
-5 | 🔴 Alta | Como gestor, quero visualizar o custo investida em cada material através de uma tabela de materiais para avaliar o impacto financeiro dos projetos | 3 | 1 | [RF06](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
-6 | 🟡 Média | Como gestor, quero visualizar a evolução de horas trabalhadas por programa ao longo do tempo para acompanhar o esforço agregado em nível estratégico | 8 | 2 | [RF05](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF10](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
-7 | 🟡 Média | Como gestor, quero visualizar a evolução de custos por programa ao longo do tempo para analisar o comportamento financeiro dos programas | 8 | 2 |[RF06](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF10](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
-8 | 🟡 Média | Como gestor, quero filtrar um programa específico e visualizar indicadores resumidos como custo estimado, custo real, horas estimadas, horas reais e total de projetos do programa para entender rapidamente sua situação geral | 5 | 2 | [RF06](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF10](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF12](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
-9 | 🟡 Média | Como gestor, quero visualizar um gráfico de barras com horas trabalhadas por programa para comparar o esforço entre diferentes projetos | 5 | 2 | [RF05](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF10](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF12](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
-10 | 🟡 Média | Como gestor, quero visualizar a distribuição de status dos projetos de um programa em um gráfico de donut para entender rapidamente o andamento das iniciativas. | 5 | 2 | [RF05](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF06](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF10](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
-11 | 🟡 Média | Como gestor, quero navegar entre as visões de programa e projeto diretamente pelos dashboards para explorar os dados do nível estratégico ao operacional | 5 | 2 | [RF11](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF13](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
-12 | 🟡 Média | Como gestor, quero visualizar uma tabela de projetos com desvios de horas contendo informações como horas estimadas, horas realizadas, progresso das tarefas e desvio para identificar projetos que precisam de atenção. | 8 | 2 | [RF05](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF11](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF12](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
-13 | 🟡 Média | Como gestor, quero visualizar o consumo de materiais por projeto ao longo do tempo em forma de gráfico de depleção para entender como os recursos físicos são utilizados nos projetos | 5 | 3 | [RF06](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF11](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
-14 | 🔴 Alta | Como gestor, quero identificar materiais com estoque insuficiente através de cards de alerta com os materiais mais críticos para execução do projeto para antecipar a necessidade de novas compras | 8 | 3 | [RF11](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
-15 | 🔴 Alta | Como gestor, quero visualizar a data limite para realizar uma requisição de compra com base no consumo previsto e no lead time do material para evitar atrasos nos projetos | 8 | 3 | [RF06](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF11](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
-16 | 🟢 Baixa | Como gestor, quero exportar informações dos dashboards em formatos como CSV ou Excel para compartilhar análises com outras áreas da organização | 3 | 3 | [RF11](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[RF13](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
+1 | 🔴 High | As a project manager, I want to view a bar chart of hours worked per employee to understand the team's effort distribution, separated by project | 8 | 1 | [CR05](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR07](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
+2 | 🔴 High | As a manager, I want to filter a specific project and view summary indicators like total cost and total time to quickly understand its overall status | 3 | 1 | [CR11](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR12](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
+3 | 🔴 High | As a manager, I want to view the evolution of hours worked per project over time in a multi-line chart to track activity progress | 8 | 1 | [CR05](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR08](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
+4 | 🔴 High | As a manager, I want to view the evolution of costs per project over time in a multi-line chart to track spending growth | 8 | 1 | [CR06](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR09](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
+5 | 🔴 High | As a manager, I want to view the cost invested in each material through a materials table to assess the financial impact of projects | 3 | 1 | [CR06](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
+6 | 🟡 Medium | As a manager, I want to view the evolution of hours worked per program over time to track aggregate effort at a strategic level | 8 | 2 | [CR05](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR10](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
+7 | 🟡 Medium | As a manager, I want to view the evolution of costs per program over time to analyze the financial behavior of programs | 8 | 2 |[CR06](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR10](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
+8 | 🟡 Medium | As a manager, I want to filter a specific program and view summary indicators such as estimated cost, actual cost, estimated hours, actual hours, and total number of projects in the program to quickly understand its overall status | 5 | 2 | [CR06](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR10](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR12](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
+9 | 🟡 Medium | As a manager, I want to view a bar chart of hours worked per program to compare effort across different projects | 5 | 2 | [CR05](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR10](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR12](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
+10 | 🟡 Medium | As a manager, I want to view the distribution of project statuses for a program in a donut chart to quickly understand the progress of initiatives | 5 | 2 | [CR05](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR06](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR10](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
+11 | 🟡 Medium | As a manager, I want to navigate between program and project views directly from the dashboards to explore data from the strategic to operational level | 5 | 2 | [CR11](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR13](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
+12 | 🟡 Medium | As a manager, I want to view a table of projects with hour deviations containing information such as estimated hours, actual hours, task progress, and deviation to identify projects that need attention | 8 | 2 | [CR05](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR11](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR12](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
+13 | 🟡 Medium | As a manager, I want to view material consumption per project over time in a depletion chart to understand how physical resources are used in projects | 5 | 3 | [CR06](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR11](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
+14 | 🔴 High | As a manager, I want to identify materials with insufficient stock through alert cards showing the most critical materials for project execution to anticipate the need for new purchases | 8 | 3 | [CR11](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
+15 | 🔴 High | As a manager, I want to view the deadline for placing a purchase request based on projected consumption and material lead time to avoid project delays | 8 | 3 | [CR06](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR11](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
+16 | 🟢 Low | As a manager, I want to export dashboard information in formats like CSV or Excel to share analyses with other areas of the organization | 3 | 3 | [CR11](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)/[CR13](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/3.-Documenta%C3%A7%C3%A3o-de-Produto#requisitos-funcionais)
 
-→ <a href="#23-de-fevereiro">Voltar ao topo</a>
+→ <a href="#23-de-fevereiro">Back to top</a>
 
 ---
 
-<span id="cronograma-de-evolucao">
+<span id="project-evolution-timeline">
     
-## ⏱️ Cronograma de Evolução do Projeto
+## ⏱️ Project Evolution Timeline
 
 | Etapa            | Kick-Off | Sprint 1 | Sprint 2 | Sprint 3 |
 | ---------------- | -------- | -------- | -------- | -------- |
-| Planejamento     | ████████ | ████████ | ████     |          |
-| Modelagem do DW  | ████████ | ██       |          |          |
+| Planning         | ████████ | ████████ | ████     |          |
+| DW Modeling      | ████████ | ██       |          |          |
 | Backend (Django) |          | ████████ | ████████ | ████████ |
 | Frontend (Vue)   |          | ████████ | ████████ | ████████ |
 | Dashboards       |          | ████████ | ████████ | ████████ |
-| Testes           |          | ████████ | ████████ | ████████ |
+| Testing          |          | ████████ | ████████ | ████████ |
 
-→ <a href="#23-de-fevereiro">Voltar ao topo</a>
+→ <a href="#23-de-fevereiro">Back to top</a>
 
 ---
 
-<span id="cronograma-de-sprints">
+<span id="sprint-timeline">
     
-## 📅 Cronograma de Sprints
+## 📅 Sprint Timeline
 
-| Sprint | Início | Fim | Histórico | Entrega |
+| Sprint | Start | End | History | Delivery |
 |-|-|-|-|-|
 | Kick off | 02/03/2026 | 15/03/2026 | --- | --- |
 | SPRINT 1 | 16/03/2026 | 05/04/2026 | [Sprint 1 Docs](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/5.-Documenta%C3%A7%C3%A3o-das-Sprints#sprint-1) | [Vídeo - TODO]() |
 | SPRINT 2 | 13/04/2026 | 03/05/2026 | [Sprint 2 Docs](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/5.-Documenta%C3%A7%C3%A3o-das-Sprints#sprint-2) | [Vídeo - TODO]() |
 | SPRINT 3 | 11/05/2026 | 31/05/2026 | [Sprint 3 Docs](https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki/5.-Documenta%C3%A7%C3%A3o-das-Sprints#sprint-3) | [Vídeo - TODO]() |
-| Feira de Soluções | 11/06/2026 | --- | --- | --- |
+| Solutions Fair | 11/06/2026 | --- | --- | --- |
 
-→ <a href="#23-de-fevereiro">Voltar ao topo</a>
+→ <a href="#23-de-fevereiro">Back to top</a>
 
 ---
 
-<span id="tecnologias">
+<span id="technologies">
 
-## 💻 Tecnologias
+## 💻 Technologies
 
 <p align="center">
   <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" />
@@ -146,49 +147,49 @@ Rank | Prioridade | User Story | Story Points | Sprint | Requisito do Cliente
   <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" />
 </p>
 
-→ <a href="#23-de-fevereiro">Voltar ao topo</a>
+→ <a href="#23-de-fevereiro">Back to top</a>
 
 ---
 
-<span id="executar-usar-testar-o-projeto">
+<span id="project-structure">
     
-## 🚀 Executar, Usar e Testar o Projeto
+## 🗂️ Project Structure
 
 TODO
 
-→ <a href="#23-de-fevereiro">Voltar ao topo</a>
+→ <a href="#23-de-fevereiro">Back to top</a>
 
 ---
 
-<span id="estrutura-do-projeto">
+<span id="run-use-and-test-the-project">
     
-## 🗂️ Estrutura do Projeto
+## 🚀 Run, Use and Test the Project
 
 TODO
 
-→ <a href="#23-de-fevereiro">Voltar ao topo</a>
+→ <a href="#23-de-fevereiro">Back to top</a>
 
 ---
 
-<span id="documentacao">
+<span id="documentation">
 
-## 📚 Documentação
+## 📚 Documentation
 
 <a href="https://www.figma.com/design/UGtbRBRk3JZqQ7Vx9TMAQ8/API-5-Sem?node-id=0-1&p=f&t=2RMKV3keLHuhPPgL-0">Wireframe</a>
 
-<a href="https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki">Documentação</a>
+<a href="https://github.com/23deFevereiro/FATEC-API-5-Semestre/wiki">Documentation</a>
 
-→ <a href="#23-de-fevereiro">Voltar ao topo</a>
+→ <a href="#23-de-fevereiro">Back to top</a>
 
 ---
 
-<span id="equipe">
+<span id="team">
 
-## :busts_in_silhouette: Equipe
+## :busts_in_silhouette: Team
 
 <div align="center">
 
-| Nome | Função | Networking | Identificação |
+| Name | Role | Networking | Identification |
 |---|---|---|---|
 | Augusto Piatto | Product Owner | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/augusto-piatto/) [![GitHub](https://img.shields.io/badge/GitHub-111217?logo=github&logoColor=white)](https://github.com/augustopiatto) | <img src="https://media.licdn.com/dms/image/v2/D4D03AQHIufwtUAtP-g/profile-displayphoto-shrink_800_800/B4DZTbun62HAAg-/0/1738853220594?e=1774483200&v=beta&t=3HthESSDspBYXny1gmIWKqkbhdxXaLLZe_UnTdCidng" width="60"> |
 | Davi Soares | Scrum Master | [![Linkedin](https://img.shields.io/badge/Linkedin-blue?logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/dsf21/) [![Github](https://img.shields.io/badge/GitHub-111217?logo=github&logoColor=white)](https://github.com/DaviSFS21) | <img src="https://media.licdn.com/dms/image/v2/D5603AQH4Mq-L9oCcvQ/profile-displayphoto-crop_800_800/B56ZlN660SIsAI-/0/1757948918646?e=1774483200&v=beta&t=LtvBfkP3zSOK9FI9lFlSDA6BNhOMU4pn0wfoAXT0taw" width="60"> |
@@ -200,5 +201,4 @@ TODO
 
 </div>
 
-→ <a href="#23-de-fevereiro">Voltar ao topo</a>
-
+→ <a href="#23-de-fevereiro">Back to top</a>
