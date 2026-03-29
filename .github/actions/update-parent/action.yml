@@ -21,11 +21,11 @@ runs:
 
     - uses: actions/checkout@v4
       with:
-        # Change when sent to main repo
         repository: MarcyLeite/API_5_SEM_BACK
         token: ${{ inputs.token }}
         submodules: true
         ref: release
+        fetch-depth: 1
 
     # - name: Pull submodule
     #   shell: bash
